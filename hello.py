@@ -1,4 +1,4 @@
-# project.py
+# project.py nnnn
 
 def tambah(a, b):
     return a + b
@@ -14,12 +14,17 @@ def bagi(a, b):
         return "Error: pembagian dengan nol!"
     return a / b
 
+def pangkat(a, b):
+    return a ** b
+
 def tampilkan_menu():
     print("=== Kalkulator Sederhana ===")
     print("1. Penjumlahan")
     print("2. Pengurangan")
     print("3. Perkalian")
     print("4. Pembagian")
+    print("5. Perpangkatan")
+
 
 def kalkulator():
     tampilkan_menu()
@@ -49,7 +54,18 @@ def kalkulator():
         hasil = bagi(angka1, angka2)
         operasi = " / "
 
+    elif pilihan == "5":
+    hasil = pangkat(angka1, angka2)
+    operasi = " ^ "
+
+
     print(f"Hasil: {angka1}{operasi}{angka2} = {hasil}")
 
 if __name__ == "__main__":
     kalkulator()
+
+
+
+
+
+
