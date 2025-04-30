@@ -6,6 +6,7 @@ Fitur:
 - Pengurangan
 - Perkalian
 - Pembagian
+- perpangkatan
 
 Pengguna diminta memilih operasi dan memasukkan dua angka.
 
